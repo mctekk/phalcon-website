@@ -90,7 +90,8 @@
         'download_windows'                => 'Windows DLLs',
         'download_developer_tools'        => 'Εργαλεία για προγραμματιστές',
         'download_ide_stubs'              => 'Στελέχη IDE',
-        'download_ubuntu'                 => 'To install Phalcon on Ubuntu you need to follow these steps:',
+        'download_ubuntu'                 => 'To install Phalcon on Ubuntu or Debian you need to follow these steps:',
+        'download_ubuntu_or_debian'       => 'Ubuntu or Debian',
         'download_ubuntu_1'               => 'If you are missing apt-add-repository run the following command:',
         'download_note'                   => 'Το Phalcon είναι μια C επέκταση, οπότε θα πρέπει να κατεβάσετε ένα δυαδικό για την πλατφόρμα σας ή να το μεταφράσετε από τον πηγαίο κώδικα.',
         'download_compilation'            => 'Compilation',
@@ -102,9 +103,6 @@
         'download_compilation_11'         => '1. Για να δημιουργήσετε την επέκταση από τον πηγαίο κώδικα C ακολουθήστε τα εξής βήματα:',
         'download_compilation_12'         => '2. Προσθέστε την επέκταση στο φάκελο php.ini:',
         'download_compilation_13'         => '3. Επανεκκινείστε τον webserver',
-        'download_debian'                 => 'Debian',
-        'download_debian_1'               => "Υπάρχει ένα repo που προσφέρεται ευγενικά από την <a href=':1:'>FortRabbit</a> <a href=':2:'>εδώ</a>",
-        'download_debian_2'               => 'Το όνομα του πακέτου είναι php5-phalcon',
         'download_arch'                   => 'Arch Linux',
         'download_arch_1'                 => "Υπάρχει ένα PKGBUILD για το ArchLinux διαθέσημο <a href=':1:'>εδώ</a>",
         'download_opensuse'               => 'OpenSUSE',
@@ -156,12 +154,12 @@
         'consulting_lezgro_3'             => "Product managers, CTOs, and non-technical founders involve <a href=':1:'>LEZGRO</a> to build products that stand out, quickly and with a high quality.",
         'consulting_lezgro_4'             => "Now that we have acquired positive experience with Phalcon, we are open to advise you on making the decision to develop on Phalcon, and help you bring your Phalcon-based product to market.",
         'consulting_lezgro_5'             => "Contact LEZGRO through their <a href=':1:'>website</a>, where you can also see samples and testimonials of their work.",
-        
+
         'consulting_mctekk_header'        => 'MCTekK has already delivered various high end Phalcon projects, with their main strengths being web and mobile development.',
         'consulting_mctekk_1'             => 'MCTekK jumped on the Phalcon wagon since day one. From its conception we saw the great advantages that Phalcon was offering and could offer in the future.',
         'consulting_mctekk_2'             => 'We have ample experience with Phalcon and have developed a myriad of project with it as the core. We are here to advise you on anything you need concerning Phalcon to help you improve your readiness, quickness and quality.',
         'consulting_mctekk_3'             => 'Contact us thourgh our <a href=":1:">website</a>, where you can take a look at the projects we have been involved in.',
-        
+
         'requirements_analysis_1'         => 'Ένα από τα μεγαλύτερα προβλήματα που αντιμετωπίζουν οι προγραμματιστές, είναι το γεγονός ότι πολλές εφαρμογές δεν έχουν επαρκώς καθορισμένες απαιτήσεις. Ως εκ τούτου, τις περισσότερες φορές, το τι θέλει ο πελάτης είναι εντελώς διαφορετικό από το τι καταλαβαίνει και παραδίδει ο προγραμματιστής.',
         'requirements_analysis_2'         => 'Προσφέρουμε υπηρεσίες ανάλυσης αναγκών, συζητώντας με πελάτες και μεταφράζοντας το όραμά τους σε ακριβέστατους προσδιορισμούς για τους προγραμματιστές.',
         'implementation_1'                => 'Θα χαρούμε να σας βοηθήσουμε, αν θέλετε να μας προσλάβετε για την ανάπτυξη της εφαρμογής σας. Χρησιμοποιώντας τις πιό τελευταίες και σύγχρονες τεχνολογίες, μπορούμε να προσφέρουμε μια υσχηρή λύση για τις εργασίες σας, πλήρης με τέστς και τεκμηρίωση. ',

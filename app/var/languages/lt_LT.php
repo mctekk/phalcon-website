@@ -90,7 +90,8 @@
         'download_windows'                => 'Windows DLLs',
         'download_developer_tools'        => 'Kūrėjo Įrankiai',
         'download_ide_stubs'              => 'IDE patarimai',
-        'download_ubuntu'                 => 'To install Phalcon on Ubuntu you need to follow these steps:',
+        'download_ubuntu'                 => 'To install Phalcon on Ubuntu or Debian you need to follow these steps:',
+        'download_ubuntu_or_debian'       => 'Ubuntu or Debian',
         'download_ubuntu_1'               => 'If you are missing apt-add-repository run the following command:',
         'download_note'                   => 'Phalcon yra C plėtinys, dėl to jums reikia atsisiųsti dvejetainį failą jūsų platformai arba sukompiliuoti jį iš pirminio kodo.',
         'download_compilation'            => 'Kompiliavimas',
@@ -102,9 +103,6 @@
         'download_compilation_11'         => '1. Norėdami sukurti plėtinį iš C kodo, sekite šiuos žingsnius:',
         'download_compilation_12'         => '2. Įtraukite plėtinį į savo php.ini:',
         'download_compilation_13'         => '3. Galiausiai, paleiskite iš naujo serverį',
-        'download_debian'                 => 'Debian',
-        'download_debian_1'               => "Ten yra saugykla, kurią maloningai pasiūlė <a href=':1:'>FortRabbit</a>. <a href=':2:'>Čia</a>",
-        'download_debian_2'               => 'Paketo pavadinimas yra php5-phalcon',
         'download_arch'                   => 'Arch Linux',
         'download_arch_1'                 => "Ten yra PKGBUILD, kuri yra skirta ArchLinux. Prieinama <a href=':1:'>čia</a>",
         'download_opensuse'               => 'OpenSUSE',
@@ -156,12 +154,12 @@
         'consulting_lezgro_3'             => "Product managers, CTOs, and non-technical founders involve <a href=':1:'>LEZGRO</a> to build products that stand out, quickly and with a high quality.",
         'consulting_lezgro_4'             => "Now that we have acquired positive experience with Phalcon, we are open to advise you on making the decision to develop on Phalcon, and help you bring your Phalcon-based product to market.",
         'consulting_lezgro_5'             => "Contact LEZGRO through their <a href=':1:'>website</a>, where you can also see samples and testimonials of their work.",
-        
+
         'consulting_mctekk_header'        => 'MCTekK has already delivered various high end Phalcon projects, with their main strengths being web and mobile development.',
         'consulting_mctekk_1'             => 'MCTekK jumped on the Phalcon wagon since day one. From its conception we saw the great advantages that Phalcon was offering and could offer in the future.',
         'consulting_mctekk_2'             => 'We have ample experience with Phalcon and have developed a myriad of project with it as the core. We are here to advise you on anything you need concerning Phalcon to help you improve your readiness, quickness and quality.',
         'consulting_mctekk_3'             => 'Contact us thourgh our <a href=":1:">website</a>, where you can take a look at the projects we have been involved in.',
-        
+
         'requirements_analysis_1'         => 'Viena iš didžiausių problemų, su kuria susiduria kūrėjai yra faktas, kad daug projektų neturi pakankamai apibrėžtų reikalavimų. Todėl, dažniau nei niekada, klientų norai yra visiškai skirtingi nuo kūrėjo supratimo ir vėlesnio pristatymo.',
         'requirements_analysis_2'         => 'Mes galime pasiūlyti reikalavimų analizės paslaugas, aptarti su klientais ir paversti jų viziją į tikslius reikalavimus kūrėjams.',
         'implementation_1'                => 'Jei jūs norite mus pasamdyti, kad sukurtumėme jūsų programą, mes būtume daugiau nei laimingi galėdami tai padaryti. Naudodami naujausias technologijas, mes galime pasiūlyti patikimą sprendimą jūsų užduočiai ar projektui su testais ir dokumentacija.',

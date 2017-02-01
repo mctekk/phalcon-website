@@ -1,16 +1,21 @@
 {% include 'download/header.volt' %}
 
             <div class="note">{{ tr('download_note') }}</div>
-            <h2>Ubuntu</h2>
+            <h2>{{ tr('download_ubuntu_or_debian') }}</h2>
             <p>
                 {{ tr('download_ubuntu') }}
             </p>
 
             <div class="highlight1">
 
-                <pre><code class="bash">sudo apt-add-repository ppa:phalcon/stable
-sudo apt-get update
-sudo apt-get install php5-phalcon</code></pre>
+                <pre>
+                    <code class="bash">curl -s https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh | sudo bash
+
+sudo apt-get install php5-phalcon
+
+# Ubuntu 16.04+ or Debian 9+
+sudo apt-get install php7.0-phalcon</code>
+                </pre>
             </div>
 
             <p>
@@ -48,23 +53,23 @@ sudo apt-get install python-software-properties</code></pre>
 
             <p>
                 <div class="highlight1">
-                    <pre><code class="bash">#Ubuntu
-    sudo apt-get install php5-dev php5-mysql gcc libpcre3-dev
+                    <pre><code class="bash"># Ubuntu
+sudo apt-get install php5-dev php5-mysql gcc libpcre3-dev
 
-#Fedora
-    sudo yum install php-devel php-mysqlnd gcc libtool
+# Fedora
+sudo yum install php-devel php-mysqlnd gcc libtool pcre-devel
 
-#RHEL
-    sudo yum install php-devel php-mysql gcc libtool
+# RHEL
+sudo yum install php-devel php-mysql gcc libtool pcre-devel
 
-#Suse
-    yast2 -i php5-pear php5-devel php5-mysql gcc
+# Suse
+yast2 -i php5-pear php5-devel php5-mysql gcc libtool pcre-devel
 
-#OS X (Using Homebrew)
-    brew tap homebrew/dupes
-    brew tap homebrew/versions
-    brew tap homebrew/php
-    brew install php5x php5x-phalcon # Where "x" - minor number of PHP</code></pre>
+# OS X (Using Homebrew)
+brew tap homebrew/dupes
+brew tap homebrew/versions
+brew tap homebrew/php
+brew install php5x php5x-phalcon # Where "x" - minor number of PHP</code></pre>
                 </div>
             </p>
 
@@ -82,12 +87,6 @@ sudo ./install</code></pre>
             <p>{{ tr('download_compilation_12') }}</p>
             <pre><code class="ini">extension=phalcon.so</code></pre>
             <p>{{ tr('download_compilation_13') }}</p>
-
-            <h2>{{ tr('download_debian') }}</h2>
-
-            <p>{{ tr('download_debian_1', 'http://www.fortrabbit.com/', 'http://debrepo.frbit.com/') }}</p>
-
-            <p>{{ tr('download_debian_2') }}</p>
 
             <h2>{{ tr('download_arch') }}</h2>
 

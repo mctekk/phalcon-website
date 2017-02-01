@@ -90,7 +90,8 @@
         'download_windows'                => '윈도우 DLLs',
         'download_developer_tools'        => '개발자 도구들',
         'download_ide_stubs'              => 'IDE stubs',
-        'download_ubuntu'                 => 'To install Phalcon on Ubuntu you need to follow these steps:',
+        'download_ubuntu'                 => 'To install Phalcon on Ubuntu or Debian you need to follow these steps:',
+        'download_ubuntu_or_debian'       => 'Ubuntu or Debian',
         'download_ubuntu_1'               => 'If you are missing apt-add-repository run the following command:',
         'download_note'                   => 'Phalcon 은 C 언어의 확장이며, 당신의 플랫폼에 대한 바이너리를 다운로드하거나 소스 코드에서 컴파일해야합니다.',
         'download_compilation'            => '컴파일',
@@ -102,9 +103,6 @@
         'download_compilation_11'         => '1. C 소스에서 확장 기능을 만들려면 다음 단계를 수행하십시오:',
         'download_compilation_12'         => '2. php.ini 에 확장모듈을 추가한다 :',
         'download_compilation_13'         => '3. 끝으로, 웹서버를 다시 시작하십시오',
-        'download_debian'                 => '데비안',
-        'download_debian_1'               => "<a href=':1:'> FortRabbit </a> 님이 흔쾌히 리포지토리를 제공하여 주셨습니다. <a href=':2:'> 저장소보기 </a>",
-        'download_debian_2'               => '패키징 이름은 php5-phalcon 입니다',
         'download_arch'                   => 'Arch 리눅스',
         'download_arch_1'                 => "ArchLinux 를 위한 PKGBUILD는 <a href=':1';>여기</a>에 있습니다 ",
         'download_opensuse'               => 'OpenSUSE',
@@ -156,12 +154,12 @@
         'consulting_lezgro_3'             => "Product managers, CTOs, and non-technical founders involve <a href=':1:'>LEZGRO</a> to build products that stand out, quickly and with a high quality.",
         'consulting_lezgro_4'             => "Now that we have acquired positive experience with Phalcon, we are open to advise you on making the decision to develop on Phalcon, and help you bring your Phalcon-based product to market.",
         'consulting_lezgro_5'             => "Contact LEZGRO through their <a href=':1:'>website</a>, where you can also see samples and testimonials of their work.",
-        
+
         'consulting_mctekk_header'        => 'MCTekK has already delivered various high end Phalcon projects, with their main strengths being web and mobile development.',
         'consulting_mctekk_1'             => 'MCTekK jumped on the Phalcon wagon since day one. From its conception we saw the great advantages that Phalcon was offering and could offer in the future.',
         'consulting_mctekk_2'             => 'We have ample experience with Phalcon and have developed a myriad of project with it as the core. We are here to advise you on anything you need concerning Phalcon to help you improve your readiness, quickness and quality.',
         'consulting_mctekk_3'             => 'Contact us thourgh our <a href=":1:">website</a>, where you can take a look at the projects we have been involved in.',
-        
+
         'requirements_analysis_1'         => '개발자가 직면하고있는 많은 프로젝트가 제대로 정의된 요구 사항이 없다는 사실이 가장 큰 문제 중 하나입니다. 따라서 각각의 클라이언트가 원하는 것은 개발자가 이해하고 있는 것과는 완전히 다른 것을 제공 할 수 있습니다.',
         'requirements_analysis_2'         => '우리는 고객과 협의하여 개발자를위한 정확한 사양에 자신의 비전을 번역하고, 요구 사항 분석 서비스를 제공 할 수 있습니다.',
         'implementation_1'                => '응용 프로그램을 개발하기 위해 우리를 고용하려는 경우, 우리는 이렇게하여 드리겠습니다. 최신 기술을 사용하여 우리는 완전한 테스트와 문서를 당신의 작업이나 프로젝트를 위해 강력한 솔루션을 제공 할 수 있습니다.',

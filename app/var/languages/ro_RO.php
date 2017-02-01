@@ -90,7 +90,8 @@
         'download_windows'                => 'Fișiere DLL pentru Windows',
         'download_developer_tools'        => 'Utilitare pentru dezvoltatori',
         'download_ide_stubs'              => 'IDE stubs',
-        'download_ubuntu'                 => 'To install Phalcon on Ubuntu you need to follow these steps:',
+        'download_ubuntu'                 => 'To install Phalcon on Ubuntu or Debian you need to follow these steps:',
+        'download_ubuntu_or_debian'       => 'Ubuntu or Debian',
         'download_ubuntu_1'               => 'If you are missing apt-add-repository run the following command:',
         'download_note'                   => 'Phalcon este o extensie C, deci trebuie să descărcați un fișier binar pentru platforma dumneavoastră sau puteți să îl compilați  de la codul sursă.',
         'download_compilation'            => 'Compilare',
@@ -102,9 +103,6 @@
         'download_compilation_11'         => '1. Pentru a crea extensia din codul sursă C, urmați acești pași:',
         'download_compilation_12'         => '2. Adaugă extensia in fișierul php.ini',
         'download_compilation_13'         => '3. În final, reporniți serverul web',
-        'download_debian'                 => 'Debian',
-        'download_debian_1'               => "Există un repo oferit cu grație de <a href=':1:'>FortRabbit</a> <a href=':2:'>aici</a>",
-        'download_debian_2'               => 'Numele pachetului este php5-phalcon',
         'download_arch'                   => 'Arch Linux',
         'download_arch_1'                 => "Există un PKGBUILD pentru ArchLinux, disponibil <a href=':1:'>aici</a>",
         'download_opensuse'               => 'OpenSUSE',
@@ -156,12 +154,12 @@
         'consulting_lezgro_3'             => "Product managers, CTOs, and non-technical founders involve <a href=':1:'>LEZGRO</a> to build products that stand out, quickly and with a high quality.",
         'consulting_lezgro_4'             => "Now that we have acquired positive experience with Phalcon, we are open to advise you on making the decision to develop on Phalcon, and help you bring your Phalcon-based product to market.",
         'consulting_lezgro_5'             => "Contact LEZGRO through their <a href=':1:'>website</a>, where you can also see samples and testimonials of their work.",
-        
+
         'consulting_mctekk_header'        => 'MCTekK has already delivered various high end Phalcon projects, with their main strengths being web and mobile development.',
         'consulting_mctekk_1'             => 'MCTekK jumped on the Phalcon wagon since day one. From its conception we saw the great advantages that Phalcon was offering and could offer in the future.',
         'consulting_mctekk_2'             => 'We have ample experience with Phalcon and have developed a myriad of project with it as the core. We are here to advise you on anything you need concerning Phalcon to help you improve your readiness, quickness and quality.',
         'consulting_mctekk_3'             => 'Contact us thourgh our <a href=":1:">website</a>, where you can take a look at the projects we have been involved in.',
-        
+
         'requirements_analysis_1'         => 'Una dintre cele mai mari probleme cu care dezvoltatorii se confruntă, este faptul că o mulțime de proiecte nu au definite cerințele în mod adecvat. Prin urmare, de cele mai multe ori, ceea ce dorește clientul este total diferit de ceea ce înțelege un dezvoltator și oferă ulterior.',
         'requirements_analysis_2'         => 'Vă putem oferi servicii de analiză a cerințelor, discuții cu clienții și transpunerea viziunii acestora în specificații exacte pentru dezvoltatori.',
         'implementation_1'                => 'Dacă doriți să ne angajați pentru a dezvolta aplicația dumneavoastră, am fi mai mult decât fericiți să facem acest lucru. Folosind cele mai noi tehnologii, putem să vă oferim o soluție robustă pentru task-ul sau proiectul dumneavoastră, însoțită de teste și documentația aferentă.',
